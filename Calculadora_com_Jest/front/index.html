@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/iconSite.png" type="image/x-icon">
+</head>
+<body>
+
+    <br>
+    <br>
+    
+    <div class="container">
+
+        <table>
+           
+            <div class="visor">
+                <p class="valor" id="conta"></p>
+            </div>
+
+            <tr>
+                <td><button class="btn" onclick="receberValor('7')">7</button></td>
+                <td><button class="btn" onclick="receberValor('8')">8</button></td>
+                <td><button class="btn" onclick="receberValor('9')">9</button></td>
+                <td><button class="btn" onclick="receberSinal('*')" id="esp">*</button></td>
+                <td><button class="btn" onclick="limpar()" id="esp">AC</button></td>
+            </tr>
+
+            <br>
+
+            <tr>
+                <td><button class="btn" onclick="receberValor('4')">4</button></td>
+                <td><button class="btn" onclick="receberValor('5')">5</button></td>
+                <td><button class="btn" onclick="receberValor('6')">6</button></td>
+                <td><button class="btn" onclick="receberSinal('-')" id="esp">-</button></td>
+                <td><button class="btn" onclick="receberSinal('^')" id="esp">^</button></td>
+            </tr>
+
+            <br>
+
+            <tr>
+                <td><button class="btn" onclick="receberValor('1');">1</button></td>
+                <td><button class="btn" onclick="receberValor('2')">2</button></td>
+                <td><button class="btn" onclick="receberValor('3')">3</button></td>
+                <td><button class="btn" onclick="receberSinal('+')" id="esp">+</button></td>
+                <td><button class="btn" onclick="receberSinal('%')" id="esp">%</button></td>
+            </tr>
+
+            <br>
+
+            <tr>
+                <td><button class="btn" onclick="receberValor('0')">0</button></td>
+                <td><button class="btn" onclick="receberValor('.')">.</button></td>
+                <td><button class="btn" id="apagar" onclick="receberSinal('apagar')"><img src="./img/deletar__1_-removebg-preview.png" alt=""></button></td>
+                <td><button class="btn" onclick="somar()" id="esp">=</button></td>
+                <td><button class="btn" onclick="receberSinal('/')" id="esp">:</button></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
