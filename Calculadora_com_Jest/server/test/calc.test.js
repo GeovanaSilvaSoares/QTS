@@ -1,6 +1,6 @@
 const { calcular } = require('../calc.js');
 
-// Casos de teste corretos
+// Casos de teste 
 // 1- Teste de expressão com adição
 test('calcular 2 + 9', () => {
     expect(calcular('2+9')).toBe("11");
