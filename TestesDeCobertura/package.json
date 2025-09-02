@@ -1,0 +1,25 @@
+{
+  "name": "banco_etec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Este projeto implementa um sistema bancário simples usando **Node.js** e **Express**, aplicando **princípios de orientação a objetos**. O sistema oferece funcionalidades como consulta de saldo, saque, depósito e filtragem de contas.",
+  "dependencies": {
+    "banco_etec": "file:",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.1.2",
+    "nodemon": "^3.1.9",
+    "nyc": "^17.1.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
