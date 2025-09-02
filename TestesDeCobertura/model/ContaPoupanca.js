@@ -4,8 +4,8 @@ const { Titular } = require('./Titular.js')
 class ContaPoupanca extends Conta {
     static contasPoupanca = []
 
-    constructor(saldo, senha, agencia, numero, titular, taxaRendimento) {
-        super(saldo, senha, agencia, numero, titular)
+    constructor(saldo, senha, agencia, numero_conta, titular, taxaRendimento) {
+        super(saldo, senha, agencia, numero_conta, titular)
         this.taxaRendimento = taxaRendimento 
         ContaPoupanca.contasPoupanca.push(this)
     }
