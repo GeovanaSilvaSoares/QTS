@@ -50,19 +50,6 @@ Permite realizar um depósito. A requisição deve conter `agencia`, `numero`, `
 ### `GET /contasCC/`
 Retorna uma lista com todas as contas correntes geradas.
 
-## Instruções
-
-1. Clone o repositório.
-2. Instale as dependências:
-    ```bash
-    npm install
-    ```
-3. Inicie o servidor:
-    ```bash
-    npm start
-    ```
-4. Acesse a API na URL `http://localhost:3000`.
-
 ## Princípios de Orientação a Objetos
 
 - **Herança**: `ContaCorrente` e `ContaPoupanca` herdam de `Conta`, reutilizando seus métodos e atributos.
